@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div class="main-body">
+        <div class="calc">
+            <div class="output">
+                <input type="text" id="screen">
+            </div>
+            <div class="button">
+                <div class="row1">
+                    <button onclick="clr()" class="btn">C</button>
+                    <button onclick="btnclick()" class="btn">+/-</button>
+                    <button onclick="btnclick('%')" class="btn">%</button>
+                    <button onclick="btnclick('/')" class="yelbtn">÷</button>
+                    
+                </div>
+                <div class="row2">
+                    <button onclick="btnclick(7)" class="btn1">7</button>
+                    <button onclick="btnclick(8)" class="btn1">8</button>
+                    <button onclick="btnclick(9)" class="btn1">9</button>
+                    <button onclick="btnclick('*')" class="yelbtn">×</button>
+                </div>
+                <div class="row3">
+                    <button onclick="btnclick(4)" class="btn1">4</button>
+                    <button onclick="btnclick(5)" class="btn1">5</button>
+                    <button onclick="btnclick(6)" class="btn1">6</button>
+                    <button onclick="btnclick('-')" class="yelbtn">-</button>
+                </div>
+                <div class="row4">
+                    <button onclick="btnclick(1)" class="btn1">1</button>
+                    <button onclick="btnclick(2)" class="btn1">2</button>
+                    <button onclick="btnclick(3)" class="btn1">3</button>
+                    <button onclick="btnclick('+')" class="yelbtn">+</button>
+                </div>
+                <div class="finalrow">
+                    <button onclick="btnclick(0)" class="lowbtn" style="text-align:left;">0</button>
+                    <button onclick="btnclick('.')" class="btn1">.</button>
+                    <button onclick="eqlclick()" class="yelbtn">=</button>
+                </div>
+            </div>
+ 
+        </div>
+    </div>
+</body>
+</html>
